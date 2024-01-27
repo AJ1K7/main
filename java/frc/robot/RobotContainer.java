@@ -64,7 +64,7 @@ public class RobotContainer {
   }
 
   private void configureBindings() {
-    driver.rightBumper()
+    driver.rightBumper() 
       .onTrue( new OpenIntake(intake, flySwatter))
       .onFalse( new CloseIntake(intake, flySwatter));
 
